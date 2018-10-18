@@ -15,5 +15,87 @@
 }
 .disappear
 {
-display:none;
+display: none;
+}
+.show
+{
+  display: block;
+}
+
+@keyframes slide{
+  0%{
+background-position: center;
+background-color:red;
+  }
+  30%
+  {
+    background-color: green;
+  }
+  60%{
+
+background-color: blue;
+  }
+  100%
+  {
+    background-position: left;
+    background-color:red;
+  }
+}
+
+.meat {
+    background-image: url('../images/meat.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    color: lightblue;
+    animation: slide 5s linear infinite;
+    background-size:20%;
+}
+
+.meattext {
+
+margin-top: 25vh;
+animation: meatanimation 10s linear infinite;
+height: 100px;
+width: 250px;
+background-color: white;
+color: black;
+text-align: center;
+padding-top: 5%;
+}
+
+
+@keyframes meatanimation{
+0%
+{
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: lightblue;
+
+
+}
+25%
+{
+  border: 5px solid green;
+    border-radius: 20px;
+      background-color: darkred;
+}
+
+50%
+{
+border: 7px solid blue ;
+    border-radius: 50px;
+    background-color: lightgreen;
+}
+75%
+{
+border: 5px solid red ;
+    border-radius: 20px;
+          background-color: darkred;
+}
+100%
+{
+border: 2px solid ;
+  border-radius: 10px;
+    background-color: lightblue;
+}
 }
