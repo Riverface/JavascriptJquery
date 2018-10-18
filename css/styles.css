@@ -1,0 +1,19 @@
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+.blippo-background {
+  background-image: url('../images/blumpo.png');
+  background-repeat: repeat;
+}
+.disappear
+{
+display:none;
+}
