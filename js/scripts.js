@@ -43,7 +43,7 @@ $(document).ready(function() {
             $("button#meat").addClass("disappear");
             $("button#meat").removeClass("show");
             $(".meattext").show();
-
+            $(".meattext").append('<p>But No one Beat.</p>            <iframe width="0" height="0" src="https://www.youtube.com/embed/gUpdozvB3XA?loop=1&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
             });
             function checkiterator()
             {

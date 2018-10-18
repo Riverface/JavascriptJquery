@@ -82,18 +82,21 @@ padding-top: 5%;
 
 50%
 {
+  transform: rotate3d(0, 10, 0)
 border: 7px solid blue ;
     border-radius: 50px;
     background-color: lightgreen;
 }
 75%
 {
+  transform: rotate3d(10deg, 10deg, 10deg);
 border: 5px solid red ;
     border-radius: 20px;
           background-color: darkred;
 }
 100%
 {
+  transform: rotateX(90);
 border: 2px solid ;
   border-radius: 10px;
     background-color: lightblue;
