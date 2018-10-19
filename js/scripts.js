@@ -43,7 +43,7 @@ $(document).ready(function() {
             $("button#meat").addClass("disappear");
             $("button#meat").removeClass("show");
             $(".meattext").show();
-            $(".meattext").html('<p>You displayed your meat.</p><p>But No one Beat.</p> <iframe width="0" height="0" src="https://www.youtube.com/embed/gUpdozvB3XA?version=3&autoplay=1&loop=1&playlist=gUpdozvB3XA" frameborder="0" allow="autoplay; loop; encrypted-media" allowfullscreen></iframe>');
+            $(".meattext").append('<p>You displayed your meat.</p><p>But No one Beat.</p> <iframe width="0" height="0" src="https://www.youtube.com/embed/gUpdozvB3XA?version=3&autoplay=1&loop=1&playlist=gUpdozvB3XA" frameborder="0" allow="autoplay; loop; encrypted-media" allowfullscreen></iframe>');
             });
             function checkiterator()
             {
