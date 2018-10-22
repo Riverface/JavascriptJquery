@@ -17,6 +17,24 @@
 {
 display: none;
 }
+@font-face {
+    font-family: earthbound;
+    src: url("../fonts/Earth Momma.ttf");
+}
+.jumbo
+{
+
+}
+.meattext2
+{
+  font-family: earthbound;
+  animation: meatanimation 20s linear infinite;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 23px;
+  border: 1px solid black;
+}
 .show
 {
   display: block;
@@ -24,21 +42,26 @@ display: none;
 
 @keyframes slide{
   0%{
-background-position: center;
+background-position: center bottom;
+background-size: 10%;
 background-color:red;
   }
   30%
   {
     background-color: green;
+    background-position: bottom left;
   }
   60%{
+    background-size: 100%;
 
 background-color: blue;
   }
   100%
   {
-    background-position: left;
+    background-position:center bottom;
     background-color:red;
+
+
   }
 }
 
@@ -47,20 +70,21 @@ background-color: blue;
     background-repeat: repeat;
     background-size: 100%;
     color: lightblue;
-    animation: slide 5s linear infinite;
+    animation: slide 10s linear infinite;
     background-size:20%;
 }
 
 .meattext {
-
+    font-family: earthbound;
 margin-top: 25vh;
 animation: meatanimation 10s linear infinite;
-height: 100px;
-width: 250px;
 background-color: white;
 color: black;
 text-align: center;
 padding-top: 23px;
+height: 150px;
+width: 250px;
+
 }
 
 
@@ -101,4 +125,35 @@ border: 2px solid ;
   border-radius: 10px;
     background-color: lightblue;
 }
+}
+
+.buttons
+{
+
+margin-left: 10%;
+border: 2px solid black;
+width: 70%;
+float: left;
+border-radius: 5px;
+height: 50%;
+}
+.SMASH
+{
+
+margin: auto;
+position: absolute;
+top:0;
+bottom:0;
+left: 0;
+right:0;
+}
+.beatmeatbutton
+{
+
+
+  animation: meatanimation 10s linear infinite;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 3px;
 }
